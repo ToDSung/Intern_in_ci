@@ -7,11 +7,11 @@ from dateutil.parser import parse
 import pandas as pd
 
 
-token='EAACEdEose0cBAKqpwSWhmeuLpbug0vCvar2w4fJcYWJwIE63I8MIyfIjlmIx1MGTfzRABHTZADRrATB8rpQXaYpWVar5ZAFWgWMMhk3O3R4ZAXTKVvuXIe6FfPX2bVpoCvZBmBwcfcp92ZAcdevdt96pSqDtxNlE2EKrguUJnwZAOirZArQTkKEZA8gkBOFPCiFpDZBbA0MucbIclwuCMTyZAApDCdhtefCeAZD'
+token='EAACEdEose0cBAEwsSkb1wcaZBUfWUS04KzI3ttdZB15OPx42VxkqpxsjYytZA5wXjLD6YHhUWnYILLZCZChLnAAgFDZCSrTZCTtIU7irLnVMCayj2b43tYZCVdsWtBTjY2LyLtlZBZCF0HZBdOFOEi4lkDqJDobU5wyRqm1hPIWZB2cpXTr10wqX3DrtC8xAKUywkRPp0EubYfcTbbhRMA5vLezLQ0dYjjy5IlEZD'
 
 graph=facebook.GraphAPI(access_token=token)
 
-fanpage_info = graph.get_object('bwnet.fans', filed='id')
+fanpage_info = graph.get_object('CCUCNA', filed='id')
 
 fanpages = { fanpage_info['id']: fanpage_info['name']}
 # 建立一個空的list        
@@ -31,8 +31,11 @@ for fanpage_id in fanpages:
         print('目前正在爬取 {} {} 第{}頁'.format(fanpage_id, fanpages[fanpage_id], pages))
         for information in res.json()['data']:
             if 'message' in information:
-                information_list.append([fanpages[fanpage_id], information['message'], parse(information['created_time']).date()])
+                
                 res2=requests.get('https://graph.facebook.com/{}/likes?summary=true&access_token={}'.format(information['id'], token))
+                article_likes=res2.json()['summary']['total_count']
+                
+                information_list.append([fanpages[fanpage_id], information['message'], parse(information['created_time']).date(), article_likes])
         # 若有下一頁，則繼續爬取，否則跳出While迴圈
 
         if 'next' in res.json()['paging']:
