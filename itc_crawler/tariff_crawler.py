@@ -79,7 +79,7 @@ class base_crawler1(object):
     def circuit_all_country(self):
         def choose_import_country(country):
             browser = self.browser
-            input_import = WebDriverWait(browser, 20).until(
+            input_import = WebDriverWait(browser, 5).until(
                 EC.presence_of_element_located((
                     By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_cmbReporter_Input')))
             input_import.clear()
@@ -88,7 +88,7 @@ class base_crawler1(object):
 
         def choose_export_country(country):
             browser = self.browser
-            input_export = WebDriverWait(browser, 20).until(
+            input_export = WebDriverWait(browser, 5).until(
                 EC.presence_of_element_located((
                     By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_cmbPartner_Input')))
             input_export.clear()
@@ -97,7 +97,7 @@ class base_crawler1(object):
 
         def get_country_list():
             browser = self.browser
-            choose_import_country_bar = WebDriverWait(browser, 20).until(
+            choose_import_country_bar = WebDriverWait(browser, 5).until(
                 EC.presence_of_element_located((
                     By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_cmbReporter_Arrow')))
             choose_import_country_bar.click()
@@ -113,11 +113,36 @@ class base_crawler1(object):
         
         country_list = get_country_list()
         browser = self.browser
-        for index, country in enumerate():
-            choose_import_country(country)
-            for index, country in enumerate(country_list):
-                choose_export_country(country)
+        page_choosing = WebDriverWait(browser,5).until(
+            EC.presence_of_element_located(
+                (By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_grdProductView_ctl00_ctl03_ctl01_PageSizeComboBox_Arrow')
+                )           
+        ).click()
+        page_drop_down = WebDriverWait(browser, 5).until(
+            EC.presence_of_element_located(
+                (By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_grdProductView_ctl00_ctl03_ctl01_PageSizeComboBox_DropDown')
+                )
+        )
+        pagesize = page_drop_down.find_element_by_css_selector('')
 
+        for index, country in enumerate(country_list):
+            choose_import_country(country)
+            for index2, country2 in enumerate(country_list):
+                
+                if country == country2:
+                    continue
+                print(country2)
+                try:
+                    choose_export_country(country2)
+                except:
+                    print('error!!!!!!!!!!!!!!!!!!!!!!!!!')
+                    browser.back()
+                else:
+                    WebDriverWait(browser, 20).until(
+                        EC.presence_of_element_located((
+                            By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_btnShowResults'))
+                    ).click()
+            time.sleep(300)
     def kill_process(self):
         try:
             self.browser.close()
