@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import WebDriverException
+from selenium.common.exceptions import WebDriverException, NoSuchWindowException
 
 
 class base_crawler1(object):
@@ -72,12 +72,51 @@ class base_crawler1(object):
         query_html = element.get_attribute('href')
         query_html_id = query_html.split('=')[1]
 
-        objective_page_html = 'http://www.macmap.org/AdvancedSearch/TariffAndTrade/AdvancedQueryResultForProducts.aspx?id={}'.format(query_html_id)
+        objective_page_html = 'http://www.macmap.org/AdvancedSearch/TariffAndTrade/AdvancedQueryResultForProducts.aspx?id={}'.format(
+            query_html_id)
         browser.get(objective_page_html)
 
-    
+    def circuit_all_country(self):
+        def choose_import_country(country):
+            browser = self.browser
+            input_import = WebDriverWait(browser, 20).until(
+                EC.presence_of_element_located((
+                    By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_cmbReporter_Input')))
+            input_import.clear()
+            print(country)
+            input_import.send_keys(country)
 
+        def choose_export_country(country):
+            browser = self.browser
+            input_export = WebDriverWait(browser, 20).until(
+                EC.presence_of_element_located((
+                    By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_cmbPartner_Input')))
+            input_export.clear()
+            # print(country)
+            input_export.send_keys(country)
+
+        def get_country_list():
+            browser = self.browser
+            choose_import_country_bar = WebDriverWait(browser, 20).until(
+                EC.presence_of_element_located((
+                    By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_cmbReporter_Arrow')))
+            choose_import_country_bar.click()
+            country = WebDriverWait(browser, 20).until(
+                EC.presence_of_element_located((
+                    By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_cmbReporter_DropDown')))
+            import_country = country.find_elements_by_css_selector('li')
+
+            country_list = []
+            for each_country in import_country:
+                country_list.append(each_country.text)
+            return country_list
         
+        country_list = get_country_list()
+        browser = self.browser
+        for index, country in enumerate():
+            choose_import_country(country)
+            for index, country in enumerate(country_list):
+                choose_export_country(country)
 
     def kill_process(self):
         try:
@@ -100,8 +139,7 @@ if __name__ == '__main__':
     crawler.create_browser_on_windows()
     crawler.do_login()
     crawler.to_setted_up_query_page()
-    
-    
-    
-    #time.sleep(10)
-    #crawler.kill_process()
+    crawler.circuit_all_country()
+
+    time.sleep(10)
+    crawler.kill_process()
