@@ -1,0 +1,290 @@
+hscode,product description,tariff,tariff_lines_num
+010121,Pure-bred breeding horses,2.50%,1
+010129,Live horses (excl. pure-bred for breeding),2.50%,1
+010130,Live asses,2.50%,1
+010190,"Live horses, asses, mules and hinnies (excl. pure-bred for breeding)",2.50%,1
+010221,Pure-bred cattle for breeding,2.50%,1
+010229,Live cattle (excl. pure-bred for breeding),2.50%,1
+010231,Pure-bred buffalo for breeding,2.50%,1
+010239,Live buffalo (excl. pure-bred for breeding),2.50%,1
+010290,Live bovine animals (excl. pure-bred for breeding),2.50%,1
+010310,"Swine, live pure-bred breeding", ,1
+010391,"Swine, live except pure-bred breeding weighing less than 50 kg", ,1
+010392,"Swine, live except pure-bred breeding weighing 50 kg or more", ,1
+010410,"Sheep, live",2.50%,1
+010420,Live goats,2.50%,1
+010511,"Live fowls of the species Gallus domesticus, weighing <= 185 g (excl. turkeys and guinea fowls)",5.00%,1
+010512,"Live domestic turkeys, weighing <= 185 g",5.00%,1
+010513,"Live domestic ducks, weighing <= 185 g",5.00%,1
+010514,"Live domestic geese, weighing <= 185 g",5.00%,1
+010515,"Live domestic guinea fowls, weighing <= 185 g",5.00%,1
+010594,"Live fowls of the species Gallus domesticus, weighing > 185",5.00%,1
+010599,"Poultry, live except domestic fowls, weighing more than 185 g",5.00%,1
+010611,Live primates,2.50%,1
+010612,"Live whales, dolphins and purpoises mammals of the order Cetacea"" and manatees and dugongs ""mammals of the order Sirenia""",2.50%,1
+010613,Live camels and other camelids [Camelidae],2.50%,1
+010614,Live rabbits and hares,2.50%,1
+010619,"Live mammals (excl. primates, whales, dolphins and purpoises mammals of the order Cetacea"", manatees and dugongs ""mammals of the order Sirenia"" and horses, asses, mules, hinnies, bovines, pigs, sheep and goats)""",2.50%,1
+010620,"Live reptiles e.g. snakes, turtles, alligators, caymans, iguanas, gavials and lizards",2.50%,1
+010631,Live birds of prey,2.50%,1
+010632,"Live psittaciformes incl. parrots, parrakeets, macaws and cockatoos",2.50%,1
+010633,"Live ostriches, and emus [Dromaius novaehollandiae]",2.50%,1
+010639,"Live birds (excl. birds of prey and psittaciformes incl. parrots, parrakeets, macaws and cockatoos"")""",2.50%,1
+010641,Live bees,2.50%,1
+010649,Live insects (excl. bees),2.50%,1
+010690,"Live animals (excl. mammals, reptiles, birds, fish, crustaceans, molluscs and other aquatic invertebrates and cultures of micro-organisms, etc.)",2.50%,1
+020110,"Carcases or half-carcases of bovine animals, fresh or chilled",2.50%,1
+020120,"Fresh or chilled bovine cuts, with bone in (excl. carcases and 1/2 carcases)",2.50%,1
+020130,"Fresh or chilled bovine meat, boneless",2.50%,1
+020210,Frozen bovine carcases and half-carcases,2.50%,1
+020220,"Frozen bovine cuts, with bone in (excl. carcases and half-carcases)",2.50%,1
+020230,"Frozen, boneless meat of bovine animals",2.50%,1
+020311,"Swine carcasses and half carcasses, fresh or chilled", ,1
+020312,"Hams, shoulders and cuts thereof, of swine bone in, fresh or chilled", ,1
+020319,"Swine cuts, fresh or chilled, nes", ,1
+020321,"Swine carcasses and half carcasses, frozen", ,1
+020322,"Hams, shoulders and cuts thereof, of swine, bone in, frozen", ,1
+020329,"Swine cuts, frozen nes", ,1
+020410,"Lamb carcasses and half carcasses, fresh or chilled",2.50%,1
+020421,"Sheep carcasses and half carcasses, fresh or chilled",2.50%,1
+020422,"Sheep cuts, bone in, fresh or chilled",2.50%,1
+020423,"Sheep cuts, boneless, fresh or chilled",2.50%,1
+020430,"Lamb carcasses and half carcasses, frozen",2.50%,1
+020441,"Sheep carcasses and half carcasses, frozen",2.50%,1
+020442,"Sheep cuts, bone in, frozen",2.50%,1
+020443,"Sheep cuts, boneless, frozen",2.50%,1
+020450,"Goat meat, fresh, chilled or frozen",2.50%,1
+020500,"Meat of horses, asses, mules or hinnies, fresh, chilled or frozen",2.50%,1
+020610,Fresh or chilled edible offal of bovine animals,2.50%,1
+020621,Frozen edible bovine tongues,2.50%,1
+020622,Frozen edible bovine livers,2.50%,1
+020629,Frozen edible bovine offal (excl. tongues and livers),2.50%,1
+020630,"Swine edible offal, fresh or chilled", ,1
+020641,"Swine livers, edible offal, frozen", ,1
+020649,"Swine edible offal, frozen nes", ,1
+020680,"Sheep, goats, asses, mules or hinnies edible offal, fresh or chilled",2.50%,1
+020690,"Sheep, goats, asses, mules or hinnies edible offal, frozen",2.50%,1
+020711,"Fresh or chilled fowls of the species Gallus domesticus, not cut in pieces",5.00%,1
+020712,"Frozen fowls of the species Gallus domesticus, not cut in pieces",5.00%,1
+020713,Fresh or chilled cuts and edible offal of fowls of the species Gallus domesticus,5.00%,1
+020714,Frozen cuts and edible offal of fowls of the species Gallus domesticus,5.00%,1
+020724,"Fresh or chilled turkeys of the species domesticus, not cut in pieces",5.00%,1
+020725,"Frozen turkeys of the species domesticus, not cut into pieces",5.00%,1
+020726,Fresh or chilled cuts and edible offal of turkeys of the species domesticus,5.00%,1
+020727,Frozen cuts and edible offal of turkeys of the species domesticus,5.00%,1
+020741,"Fowl cuts and offal, domestic, except livers, frozen",5.00%,1
+020742,"Turkey cuts and offal, except livers, frozen",5.00%,1
+020743,"Duck,geese or guinea fowl cuts and offal,domestic,except livers,frozen",5.00%,1
+020744,Fresh or chilled cuts and edible offal of domestic ducks (excl. fatty livers),5.00%,1
+020745,Frozen cuts and edible offal of domestic ducks,5.00%,1
+020751,"Fresh or chilled domestic geese, not cut in pieces",5.00%,1
+020752,"Frozen domestic geese, not cut in pieces",5.00%,1
+020753,"Fatty livers of domestic geese, fresh or chilled",5.00%,1
+020754,Fresh or chilled cuts and edible offal of domestic geese (excl. fatty livers),5.00%,1
+020755,Frozen cuts and edible offal of domestic geese,5.00%,1
+020760,"Meat and edible offal of domestic guinea fowls, fresh, chilled or frozen",5.00%,1
+020810,"Rabbit or hare meat and edible meat offal, fresh, chilled or frozen",2.50%,1
+020830,"Fresh, chilled or frozen meat and edible offal of primates",2.50%,1
+020840,"Fresh, chilled or frozen meat and edible offal of whales, dolphins and purpoises mammals of the order Cetacea"" and of manatees and dugongs ""mammals of the order Sirenia""",2.50%,1
+020850,"Fresh, chilled or frozen meat and edible offal of reptiles e.g. snakes, turtles, crocodiles",2.50%,1
+020860,"Fresh, chilled or frozen meat and edible offal of camels and other camelids [Camelidae]",2.50%,1
+020890,"Meat and edible meat offal, nes fresh, chilled or frozen",2.50%,1
+020910,"Pig fat, free of lean meat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked", ,1
+020990,"Poultry fat, not rendered or otherwise extracted, fresh, chilled, frozen, salted, in brine, dried or smoked",2.50%,1
+021011,"Hams, shoulders and cuts thereof, of swine bone in, cured", ,1
+021012,"Bellies, streaky and cuts thereof, swine cured", ,1
+021019,"Swine meat cured, nes", ,1
+021020,"Meat of bovine animals, salted, in brine, dried or smoked",2.50%,1
+021091,"Meat and edible offal, salted, in brine, dried or smoked, and edible flours and meals of meat and meat offal, of primates",2.50%,1
+021092,"Meat and edible offal, salted, in brine, dried or smoked, and edible flours and meals of meat and meat offal, of whales, dolphins and purpoises mammals of the order Cetacea"" and manatees and dugongs ""mammals of the order Sirenia""",2.50%,1
+021093,"Meat and edible offal, salted, in brine, dried or smoked, and edible flours and meals of meat and meat offal, of reptiles e.g. snakes, turtles, alligators",2.50%,1
+021099,"Meat and edible offal, salted, in brine, dried or smoked, and edible flours and meals of meat and meat offal (excl. meat of bovine animals and swine and meat and edible offal of primates, whales, dolphins and purpoises mammals of the order Cetacea"", manatees and dugongs ""mammals of the order Sirenia"" and reptiles)""",2.50%,1
+030111,Live ornamental freshwater fish,2.50%,1
+030119,Live ornamental fish (excl. freshwater),2.50%,1
+030191,"Trout, live",2.50%,1
+030192,"Eels, live",2.50%,1
+030193,Live carp,2.50%,1
+030194,Live bluefin tunas Thunnus thynnus,2.50%,1
+030195,Live southern bluefin tunas Thunnus maccoyii,2.50%,1
+030199,"Live fish (excl. ornamental fish, trout [Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster], eels [Anguilla spp.], carp, bluefin tunas [Thunnus thynnus] and southern bluefin tunas [Thunnus maccoyii])",2.50%,1
+030211,"Trout, fresh or chilled excluding heading No 03.04, livers and roes",2.50%,1
+030213,"""Fresh or chilled Pacific salmon """"Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus""""""",2.50%,1
+030214,"""Fresh or chilled Atlantic salmon """"Salmo salar"""" and Danube salmon """"Hucho hucho""""""", ,1
+030219,"Salmonidae nes,fresh or chilled,excl heading No 03.04,livers and roes",2.50%,1
+030221,"Halibut, fresh or chilled, excluding heading No 03.04, livers and roes",2.50%,1
+030222,"Plaice, fresh or chilled, excl heading No 03.04, livers and roes",2.50%,1
+030223,"Sole, fresh or chilled, excluding heading No 03.04, livers and roes",2.50%,1
+030224,"""Fresh or chilled turbot """"Psetta maxima""""""",2.50%,1
+030229,"Flatfish nes,fresh or chilled excluding heading No 03.04,livers & roes",2.50%,1
+030231,"Tunas,albacore or longfinned,fr or chd excl headg No 03.04,livers&roes",2.50%,1
+030232,"Tunas,yellowfin,fresh or chilled,excl heading No 03.04,livers and roes",2.50%,1
+030233,"Skipjack o stripe-bellid bonito,fr o chd,ex headg No 03.04,livers&roes",2.50%,1
+030234,Fresh or chilled bigeye tunas Thunnus obesus,2.50%,1
+030235,Fresh or chilled bluefin tunas Thunnus thynnus,2.50%,1
+030236,Fresh or chilled Southern bluefin tunas Thunnus maccoyii,2.50%,1
+030239,"Tunas nes,fresh or chilled,excluding heading No 03.04,livers and roes",2.50%,1
+030241,"""Fresh or chilled herring """"Clupea harengus, clupea pallasii""""""",2.50%,1
+030242,"""Fresh or chilled anchovies """"Engraulis spp.""""""",5.00%,1
+030243,"""Fresh or chilled sardines """"Sardina pilchardus, Sardinops spp."""", sardinella """"Sardinella spp."""", brisling or sprats """"Sprattus sprattus""""""",2.50%,1
+030244,"""Fresh or chilled mackerel """"Scomber scombrus, Scomber australasicus, Scomber japonicus""""""",2.50%,1
+030245,"""Fresh or chilled jack and horse mackerel """"Trachurus spp.""""""",2.50%,1
+030246,"""Fresh or chilled cobia """"Rachycentron canadum""""""",2.50%,1
+030247,"""Fresh or chilled swordfish """"Xiphias gladius""""""",2.50%,1
+030251,"""Fresh or chilled cod """"Gadus morhua, Gadus ogac, Gadus macrocephalus""""""",2.50%,1
+030252,"""Fresh or chilled haddock """"Melanogrammus aeglefinus""""""",2.50%,1
+030253,"""Fresh or chilled coalfish """"Pollachius virens""""""",2.50%,1
+030254,"""Fresh or chilled hake """"Merluccius spp., Urophycis spp.""""""",2.50%,1
+030255,"""Fresh or chilled Alaska pollack """"Theragra chalcogramma""""""",2.50%,1
+030256,"""Fresh or chilled blue whiting """"Micromesistius poutassou, Micromesistius australis""""""",2.50%,1
+030259,"Fresh or chilled fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae (excl. cod, haddock, coalfish, hake, Alaska pollack and blue whitings)",2.50%,1
+030271,"""Fresh or chilled tilapia """"Oreochromis spp.""""""",2.50%,1
+030272,"""Fresh or chilled catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.""""""",2.50%,1
+030273,"""Fresh or chilled carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus""""""",2.50%,1
+030274,"""Fresh or chilled eels """"Anguilla spp.""""""",2.50%,1
+030279,"""Fresh or chilled, Nile perch """"Lates niloticus"""" and snakeheads """"Channa spp.""""""",2.50%,1
+030281,Fresh or chilled dogfish and other sharks,2.50%,1
+030282,"""Fresh or chilled, rays and skates """"Rajidae""""""",2.50%,1
+030283,"""Fresh or chilled toothfish """"Dissostichus spp.""""""",2.50%,1
+030284,"""Fresh or chilled sea bass """"Dicentrarchus spp.""""""",2.50%,1
+030285,"""Fresh or chilled sea bream """"Sparidae""""""",2.50%,1
+030289,"Fresh or chilled fish, n.e.s.",2.50%,1
+030290,Fresh or chilled fish livers and roes,2.50%,1
+030311,Frozen sockeye salmon [red salmon] Oncorhynchus nerka,2.50%,1
+030312,"""Frozen Pacific salmon (excl. sockeye salmon """"red salmon"""")""",2.50%,1
+030313,"""Frozen, Atlantic salmon """"Salmo salar"""" and Danube salmon """"Hucho hucho""""""",2.50%,1
+030314,"""Frozen trout """"Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster""""""",2.50%,1
+030319,"Frozen Pacific salmon Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus"" (excl. sockeye salmon [red salmon] ""Oncorhynchus nerka"")""",2.50%,1
+030323,"""Frozen tilapia """"Oreochromis spp.""""""",2.50%,1
+030324,"""Frozen catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.""""""",2.50%,1
+030325,"""Frozen carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus""""""",2.50%,1
+030326,"""Frozen eels """"Anguilla spp.""""""",2.50%,1
+030329,"Salmonidae, nes,frozen,excluding heading No 03.04, livers and roes",2.50%,1
+030331,"Halibut, frozen, excluding heading No 03.04, livers and roes",2.50%,1
+030332,"Plaice, frozen, excluding heading No 03.04, livers and roes",2.50%,1
+030333,"Sole, frozen, excluding heading No 03.04, livers and roes",2.50%,1
+030334,"""Frozen turbot """"Psetta maxima""""""",2.50%,1
+030339,"Flatfish nes, frozen, excluding heading No 03.04, livers and roes",2.50%,1
+030341,"Tunas,albacore or longfinned,frozen,excl headg No 03.04,livers & roes",2.50%,1
+030342,"Tunas, yellowfin, frozen excluding heading No 03.04, livers and roes",2.50%,1
+030343,"Skipjack or stripe-bellid bonito,frozen ex headg No 03.04,livers&roes",2.50%,1
+030344,Frozen bigeye tunas Thunnus obesus,2.50%,1
+030345,Frozen bluefin tunas Thunnus thynnus,2.50%,1
+030346,Frozen Southern bluefin tunas Thunnus maccoyii,2.50%,1
+030349,"Tunas nes, frozen, excluding heading No 03.04, livers and roes",2.50%,1
+030351,"Frozen herrings Clupea harengus, Clupea pallasii",2.50%,1
+030353,"""Frozen sardines """"Sardina pilchardus, Sardinops spp."""", sardinella """"Sardinella spp."""", brisling or sprats """"Sprattus sprattus""""""",2.50%,1
+030354,"""Frozen mackerel """"Scomber scombrus, Scomber australasicus, Scomber japonicus""""""",2.50%,1
+030355,"""Frozen jack and horse mackerel """"Trachurus spp.""""""",2.50%,1
+030356,"""Frozen cobia """"Rachycentron canadum""""""",2.50%,1
+030357,"""Frozen swordfish """"Xiphias gladius""""""",2.50%,1
+030363,"""Frozen cod """"Gadus morhua, Gadus ogac, Gadus macrocephalus""""""",2.50%,1
+030364,"""Frozen haddock """"Melanogrammus aeglefinus""""""",2.50%,1
+030365,"""Frozen coalfish """"Pollachius virens""""""",2.50%,1
+030366,"""Frozen hake """"Merluccius spp., Urophycis spp.""""""",2.50%,1
+030367,"""Frozen Alaska pollack """"Theragra chalcogramma""""""",2.50%,1
+030368,"""Frozen blue whiting """"Micromesistius poutassou, Micromesistius australis""""""",2.50%,1
+030369,"Frozen fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae (excl. cod, haddock, coalfish, hake, Alaska pollack and blue whiting)",2.50%,1
+030381,Frozen dogfish and other sharks,2.50%,1
+030382,"""Frozen rays and skates """"Rajidae""""""",2.50%,1
+030383,"""Frozen toothfish """"Dissostichus spp.""""""",2.50%,1
+030384,"""Frozen sea bass """"Dicentrarchus spp.""""""",2.50%,1
+030389,"Frozen fish, n.e.s.",2.50%,1
+030390,Frozen fish livers and roes,2.50%,1
+030431,"""Fresh or chilled fillets of tilapia """"Oreochromis spp.""""""",5.00%,1
+030432,"""Fresh or chilled fillets of catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.""""""",5.00%,1
+030433,"""Fresh or chilled fillets of Nile perch """"Lates niloticus""""""",5.00%,1
+030439,"""Fresh or chilled fillets of carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus"""",  eels """"Anguilla spp."""" and snakeheads """"Channa spp.""""""",5.00%,1
+030441,"""Fresh or chilled fillets of Pacific salmon """"Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus"""", Atlantic salmon """"Salmo salar"""" and Danube salmon """"Huc""",5.00%,1
+030442,"""Fresh or chilled fillets of trout """"Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster""""""",5.00%,1
+030443,"""Fresh or chilled fillets of flat fish """"Pleuronectidae, Bothidae, Cynoglossidae, Soleidae, Scophthalmidae and Citharidae""""""",5.00%,1
+030444,"Fresh or chilled fillets of fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae",5.00%,1
+030445,"""Fresh or chilled fillets of swordfish """"Xiphias gladius""""""",5.00%,1
+030446,"""Fresh or chilled fillets of toothfish """"Dissostichus spp.""""""",5.00%,1
+030449,"Fresh or chilled fillets of fish, n.e.s.",5.00%,1
+030451,"""Fresh or chilled meat, whether or not minced, of tilapia """"Oreochromis spp."""", catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp."""", carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp""",5.00%,1
+030452,"Fresh or chilled meat, whether or not minced, of salmonidae (excl. fillets)",5.00%,1
+030453,"Fresh or chilled meat, whether or not minced, of fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae (excl. fillets)",5.00%,1
+030454,"""Fresh or chilled meat, whether or not minced, of swordfish """"Xiphias gladius"""" (excl. fillets)""",5.00%,1
+030455,"""Fresh or chilled meat, whether or not minced, of toothfish """"Dissostichus spp."""" (excl. fillets)""",5.00%,1
+030459,"Fresh or chilled fish meat, whether or not minced (excl. all fillets, tilapias, catfish, carp, eels, Nile perch, snakeheads, salmonidae, swordfish, toothfish and fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merl",5.00%,1
+030461,"""Frozen fillets of tilapia """"Oreochromis spp.""""""",5.00%,1
+030462,"""Frozen fillets of catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp.""""""",5.00%,1
+030463,"""Frozen fillets of Nile perch """"Lates niloticus""""""",5.00%,1
+030469,"""Frozen fillets of carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus"""", eels """"Anguilla spp."""" and snakeheads """"Channa spp.""""""",5.00%,1
+030471,"""Frozen fillets of cod """"Gadus morhua, Gadus ogac, Gadus macrocephalus""""""",5.00%,1
+030472,"""Frozen fillets of haddock """"Melanogrammus aeglefinus""""""",5.00%,1
+030473,"""Frozen fillets of coalfish """"Pollachius virens""""""",5.00%,1
+030474,"""Frozen fillets of hake """"Merluccius spp., Urophycis spp.""""""",5.00%,1
+030475,"""Frozen fillets of Alaska pollack """"Theragra chalcogramma""""""",5.00%,1
+030479,"Frozen fillets of fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae (excl. cod, haddock, coalfish, hake and Alaska pollack)",5.00%,1
+030481,"""Frozen fillets of Pacific salmon """"Oncorhynchus nerka, Oncorhynchus gorbuscha, Oncorhynchus keta, Oncorhynchus tschawytscha, Oncorhynchus kisutch, Oncorhynchus masou and Oncorhynchus rhodurus"""", Atlantic salmon """"Salmo salar"""" and Danube salmon """"Hucho hucho""""""",5.00%,1
+030482,"""Frozen fillets of trout """"Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster""""""",5.00%,1
+030483,"""Frozen fillets of flat fish """"Pleuronectidae, Bothidae, Cynoglossidae, Soleidae, Scophthalmidae and Citharidae""""""",5.00%,1
+030484,"""Frozen fillets of swordfish """"Xiphias gladius""""""",5.00%,1
+030485,"""Frozen fillets of toothfish """"Dissostichus spp.""""""",5.00%,1
+030486,"""Frozen fillets of herring """"Clupea harengus, Clupea pallasii""""""",5.00%,1
+030487,"""Frozen fillets of tuna """"of the genus Thunnus"""", skipjack or stripe-bellied bonito """"Euthynnus [Katsuwonus] pelamis""""""",5.00%,1
+030489,"Frozen fish fillets, n.e.s.",5.00%,1
+030491,"Frozen meat whether or not minced"" of swordfish ""Xiphias gladius"" (excl. fillets)""",5.00%,1
+030492,"Frozen meat whether or not minced"" of toothfish ""Dissostichus spp."" (excl. fillets)""",5.00%,1
+030493,"""Frozen meat, whether or not minced, of tilapia """"Oreochromis spp."""", catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp."""", carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopha""",5.00%,1
+030494,"""Frozen meat, whether or not minced, of Alaska pollack """"Theragra chalcogramma"""" (excl. fillets)""",5.00%,1
+030495,"""Frozen meat, whether or not minced, of fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae (excl. fillets and Alaska pollack """"Theragra chalcogramma"""")""",5.00%,1
+030499,"Frozen fish meat whether or not minced"" (excl. swordfish, toothfish and fillets)""",5.00%,1
+030510,"Flours, meals and pellets of fish, fit for human consumption",5.00%,1
+030520,"Livers and roes, dried, smoked, salted or in brine",5.00%,1
+030531,"""Fillets, dried, salted or in brine, but not smoked, of tilapia """"Oreochromis spp."""", catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp."""", carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhin""",5.00%,1
+030532,"Fillets, dried, salted or in brine, but not smoked, of fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae",5.00%,1
+030539,"Fish fillets, dried, salted or in brine, but not smoked (excl. tilapia, catfish, carp, eels, Nile perch, snakeheads and fish of the families Bregmacerotidae, Euclichthyidae, Gadidae, Macrouridae, Melanonidae, Merlucciidae, Moridae and Muraenolepididae)",5.00%,1
+030541,"Salmon, Pacific, Atlantic and Danube, smoked including fillets",5.00%,1
+030542,"Herrings smoked, including fillets",5.00%,1
+030543,"""Smoked trout """"Salmo trutta, Oncorhynchus mykiss, Oncorhynchus clarki, Oncorhynchus aguabonita, Oncorhynchus gilae, Oncorhynchus apache and Oncorhynchus chrysogaster"""", incl. fillets (excl. offal)""",5.00%,1
+030544,"""Smoked tilapia """"Oreochromis spp."""", catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp."""", carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus"""", eels """"Anguilla""",5.00%,1
+030549,"Smoked fish, incl. fillets (excl. Pacific salmon, Atlantic salmon, Danube salmon and herrings)",5.00%,1
+030551,"Cod dried, whether or not salted but not smoked",5.00%,1
+030559,"Fish nes, dried, whether or not salted but not smoked",5.00%,1
+030561,"Herrings, salted and in brine, but not dried or smoked",5.00%,1
+030562,"Cod, salted and in brine, but not dried or smoked",5.00%,1
+030563,"Anchovies, salted and in brine, but not dried or smoked",5.00%,1
+030564,"""Tilapia """"Oreochromis spp."""", catfish """"Pangasius spp., Silurus spp., Clarias spp., Ictalurus spp."""", carp """"Cyprinus carpio, Carassius carassius, Ctenopharyngodon idellus, Hypophthalmichthys spp., Cirrhinus spp., Mylopharyngodon piceus"""", eels """"Anguilla spp."""",""",5.00%,1
+030569,"Fish, salted or in brine only (excl. herrings, cod, anchovies and fillets in general)",5.00%,1
+030571,"Shark fins, smoked, dried, salted or in brine",5.00%,1
+030572,"Fish heads, tails and maws, smoked, dried, salted or in brine",5.00%,1
+030579,"Fish fins and other edible fish offal, smoked, dried, salted or in brine (excl. heads, tails, maws and shark fins)",5.00%,1
+030611,"Rock lobster&oth sea crawfish,frozen in shell/not,incl boild in shell",5.00%,1
+030612,"Lobsters nes, frozen, in shell or not, including boiled in shell",5.00%,1
+030614,"Frozen crabs, whether in shell or not, incl. crabs in shell, cooked by steaming or by boiling in water",5.00%,1
+030615,"""Frozen Norway lobsters """"Nephrops norvegicus"""", even smoked, whether in shell or not, incl. lobsters in shell, cooked by steaming or by boiling in water""",5.00%,1
+030616,"""Frozen cold-water shrimps and prawns """"Pandalus spp., Crangon crangon"""", even smoked, whether in shell or not, incl. shrimps and prawns in shell, cooked by steaming or by boiling in water""",5.00%,1
+030617,"Frozen shrimps and prawns, even smoked, whether in shell or not, incl. shrimps and prawns in shell, cooked by steaming or by boiling in water (excl. cold-water shrimps and prawns)",5.00%,1
+030619,"Frozen crustaceans, fit for human consumption, whether in shell or not, incl. crustaceans in shell, cooked beforehand by steaming or by boiling in water (excl. rock lobster and other sea crawfish, lobsters, shrimps, prawns and crabs); frozen flours, meals, and pellets of crustaceans, fit for human consumption",5.00%,1
+030621,"Rock lobster&oth sea crawfish not fz,in shell/not,incl boild in shell",5.00%,1
+030622,"Lobsters nes, not frozen, in shell or not, including boiled in shell",5.00%,1
+030624,"Crabs, whether in shell or not, live, dried, salted or in brine, incl. crabs in shell, cooked by steaming or by boiling in water",5.00%,1
+030625,"""Norway lobsters """"Nephrops norvegicus"""", even smoked, whether in shell or not, live, fresh, chilled, dried, salted or in brine, incl. lobsters in shell, cooked by steaming or by boiling in water""",5.00%,1
+030626,"""Cold-water shrimps and prawns """"Pandalus spp., Crangon crangon"""", even smoked, whether in shell or not, live, fresh, chilled, dried, salted or in brine, incl. shrimps and prawns in shell, cooked by steaming or by boiling in water""",5.00%,1
+030627,"Shrimps and prawns, even smoked, whether in shell or not, live, fresh, chilled, dried, salted or in brine, incl. shrimps and prawns in shell, cooked by steaming or by boiling in water (excl. cold-water shrimps and prawns)",5.00%,1
+030629,"Crustaceans, fit for human consumption, whether in shell or not, live, fresh, chilled, dried, salted or in brine, incl. crustaceans in shell, cooked beforehand by steaming or by boiling in water (excl. rock lobster and other sea crawfish, lobsters, shrimps, prawns and crabs); flours, meals and pellets of crustaceans, fit for human consumption",5.00%,1
+030711,"Oysters, even in shell, live, fresh or chilled",5.00%,1
+030719,"Oysters, smoked, frozen, dried, salted or in brine",5.00%,1
+030721,"Scallops,including queen scallops,shelled or not,live,fresh or chilled",5.00%,1
+030729,"Scallops,incl queen scallops,shelld o not,frozen,drid,saltd o in brine",5.00%,1
+030731,"Mussels, shelled or not, live, fresh or chilled",5.00%,1
+030739,"Mussels, shelled or not, frozen, dried, salted or in brine",5.00%,1
+030741,"Cuttle fish and squid, shelled or not, live, fresh or chilled",5.00%,1
+030749,"Cuttle fish and squid,shelled or not,frozen,dried,salted or in brine",5.00%,1
+030751,"Octopus, live, fresh or chilled",5.00%,1
+030759,"Octopus, frozen, dried, salted or in brine",5.00%,1
+030760,"Snails,(ex sea) shelld or not,live,fresh,chd,fz,drid,saltd or in brine",5.00%,1
+030771,"""Live, fresh or chilled, even in shell, clams, cockles and ark shells """"families Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae and Veneridae""""""",5.00%,1
+030779,"""Smoked, frozen, dried, salted or in brine, even in shell, clams, cockles and ark shells """"families Arcidae, Arcticidae, Cardiidae, Donacidae, Hiatellidae, Mactridae, Mesodesmatidae, Myidae, Semelidae, Solecurtidae, Solenidae, Tridacnidae and Veneridae""""""",5.00%,1
+030781,"""Live, fresh or chilled, even in shell, abalone """"Haliotis spp.""""""",5.00%,1
+030789,"""Smoked, frozen, dried, salted or in brine, abalone """"Haliotis spp."""", even in shell""",5.00%,1
+030791,"Molluscs nes,shelld/not,and aquatic invertebrates nes,live,fr/chilld",5.00%,1
+030799,"Molluscs, fit for human consumption, whether in shell or not, frozen, dried, salted or in brine, incl. sea urchins, sea cucumbers and other aquatic invertebrates (other than crustaceans); flours, meals and pellets of aquatic invertebrates (other than crustaceans), fit for human consumption (excl. chilled, and oysters, scallops, queen scallops, mussels, cuttlefish, squids, octopus and snails other than sea snails)",5.00%,1
+030811,"""Live, fresh or chilled, sea cucumbers """"Stichopus japonicus, Holothurioidea""""""",5.00%,1
+030819,"""Smoked, frozen, dried, salted or in brine, sea cucumbers """"Stichopus japonicus, Holothurioidea""""""",5.00%,1
+030821,"""Live, fresh or chilled, sea urchins """"Strongylocentrotus spp., Paracentrotus lividus, Loxechinus albus, Echichinus esculentus""""""",5.00%,1
+030829,"""Smoked, frozen, dried, salted or in brine, sea urchins """"Strongylocentrotus spp., Paracentrotus lividus, Loxechinus albus, Echichinus esculentus""""""",5.00%,1
+030830,"""Live, fresh, chilled, frozen, dried, salted or in brine, even smoked, jellyfish """"Rhopilema spp.""""""",5.00%,1
+030890,"Live, fresh, chilled, frozen, dried, salted or in brine, even smoked, aquatic invertebrates (excl. crustaceans, molluscs, sea cucumbers, sea urchins and jellyfish); all flours, meals and pellets of aquatic invertebrates other than crustaceans and molluscs",5.00%,1
