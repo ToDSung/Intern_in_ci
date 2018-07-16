@@ -1,6 +1,7 @@
 import configparser
 import json
 import os
+import pickle
 import psutil
 import time
 from selenium import webdriver
@@ -110,39 +111,69 @@ class base_crawler1(object):
             for each_country in import_country:
                 country_list.append(each_country.text)
             return country_list
-        
-        country_list = get_country_list()
-        browser = self.browser
-        page_choosing = WebDriverWait(browser,5).until(
-            EC.presence_of_element_located(
-                (By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_grdProductView_ctl00_ctl03_ctl01_PageSizeComboBox_Arrow')
-                )           
-        ).click()
-        page_drop_down = WebDriverWait(browser, 5).until(
-            EC.presence_of_element_located(
-                (By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_grdProductView_ctl00_ctl03_ctl01_PageSizeComboBox_DropDown')
+
+        def click_page_size():
+            browser = self.browser
+            page_choosing = WebDriverWait(browser, 5).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_grdProductView_ctl00_ctl03_ctl01_PageSizeComboBox_Arrow'))
+            )
+            browser.execute_script("arguments[0].click();", page_choosing)
+
+            page_drop_down = WebDriverWait(browser, 5).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_grdProductView_ctl00_ctl03_ctl01_PageSizeComboBox_DropDown')
                 )
-        )
-        pagesize = page_drop_down.find_element_by_css_selector('')
+            )
+            pagesize = page_drop_down.find_element_by_css_selector(
+                'li:last-child')
+            pagesize.click()
+
+        def get_pagesource():
+            return browser.execute_script("return document.documentElement.outerHTML")
+        
+        def save_to_local(save_list):
+            # file_name = World_020711_Exports_Quantities.pickle
+            world_dir = 'crawler_result'
+            file_name = 'test.pickle'
+            if not os.path.isdir(world_dir):
+                os.makedir(world_dir)
+            file_path = os.path.join(world_dir, file_name)
+            print(file_path)
+            with open(file_path, 'wb') as fd:
+                pickle.dump(save_list ,fd)
+
+        browser = self.browser
+
+        # 將 page 改成顯示一頁顯示最多項目
+        click_page_size()
+        country_list = get_country_list()
+        
 
         for index, country in enumerate(country_list):
             choose_import_country(country)
             for index2, country2 in enumerate(country_list):
-                
+                output_list = []        
                 if country == country2:
                     continue
                 print(country2)
                 try:
                     choose_export_country(country2)
                 except:
-                    print('error!!!!!!!!!!!!!!!!!!!!!!!!!')
+                    print('error!!!!!!!!!!!!!')
                     browser.back()
+                    continue
                 else:
                     WebDriverWait(browser, 20).until(
                         EC.presence_of_element_located((
                             By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_btnShowResults'))
                     ).click()
+                output_list = [country, country2, get_pagesource()]
+                save_to_local(output_list)
+                print(output_list)
+
             time.sleep(300)
+
     def kill_process(self):
         try:
             self.browser.close()
