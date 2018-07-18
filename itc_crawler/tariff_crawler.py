@@ -1,5 +1,7 @@
 import configparser
+import datetime
 import json
+import logging
 import os
 import pickle
 import psutil
@@ -132,10 +134,10 @@ class base_crawler1(object):
         def get_pagesource():
             return browser.execute_script("return document.documentElement.outerHTML")
         
-        def save_to_local(save_list):
+        def save_to_local(save_list, country, country2):
             # file_name = World_020711_Exports_Quantities.pickle
             world_dir = 'crawler_result'
-            file_name = 'test.pickle'
+            file_name = 'im-{0}-ex-{1}.pickle'.format(country, country2)
             if not os.path.isdir(world_dir):
                 os.makedir(world_dir)
             file_path = os.path.join(world_dir, file_name)
@@ -148,30 +150,42 @@ class base_crawler1(object):
         # 將 page 改成顯示一頁顯示最多項目
         click_page_size()
         country_list = get_country_list()
-        
+        count = 0
 
         for index, country in enumerate(country_list):
             choose_import_country(country)
             for index2, country2 in enumerate(country_list):
-                output_list = []        
+                
                 if country == country2:
                     continue
                 print(country2)
-                try:
-                    choose_export_country(country2)
-                except:
-                    print('error!!!!!!!!!!!!!')
-                    browser.back()
-                    continue
-                else:
-                    WebDriverWait(browser, 20).until(
-                        EC.presence_of_element_located((
-                            By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_btnShowResults'))
-                    ).click()
-                output_list = [country, country2, get_pagesource()]
-                save_to_local(output_list)
-                print(output_list)
+                while True:
 
+                    try:    
+                        choose_export_country(country2)
+                        WebDriverWait(browser, 20).until(
+                            EC.presence_of_element_located((
+                            By.CSS_SELECTOR, '#ctl00_ContentPlaceHolder1_btnShowResults'))
+                        ).click()
+                        count += 1
+                    except Exception as e:
+                        logging.error(e)
+                        print(e)
+                    else:
+                        if 'error' in browser.current_url:
+                            print(browser.current_url)
+                            print('Now in error page, Trying back to previous page')
+                            browser.back()
+                        else:
+                            output_list = [country, country2, get_pagesource()]
+                            save_to_local(output_list, country, country2)
+                            break
+                    #print(output_list)
+                print(count)
+                if count == 50:
+                    time.sleep(300)
+                    count = 0
+            print('circuit all export country')
             time.sleep(300)
 
     def kill_process(self):
@@ -190,6 +204,11 @@ class base_crawler1(object):
 
 
 if __name__ == '__main__':
+
+    log_filename = datetime.datetime.now().strftime("%Y-%m-%d.log")
+    logging.basicConfig(level=logging.DEBUG,filename= log_filename,
+                    format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+                    datefmt='%m-%d %H:%M:%S')
 
     crawler = base_crawler1()
     crawler.create_browser_on_windows()
