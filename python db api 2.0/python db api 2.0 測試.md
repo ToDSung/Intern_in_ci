@@ -4,13 +4,13 @@
 > docker search 
 > 
 ## postgresql 
-docker run --name postgresql -e POSTGRES_USER=username -e POSTGRES_PASSWORD=ciPs1618 -p 10001:5432 -d postgres
+docker run --name postgresql -e POSTGRES_USER=username -e POSTGRES_PASSWORD=mypasswd -p 10001:5432 -d postgres
 
 ## maria db
-docker run --name 'Mariadb' -e 'MYSQL_ROOT_PASSWORD=admin' -e 'MYSQL_USER=username' -e 'MYSQL_PASSWORD=ciPs1618' -p 10002:3306 -d mariadb --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+docker run --name 'Mariadb' -e 'MYSQL_ROOT_PASSWORD=admin' -e 'MYSQL_USER=username' -e 'MYSQL_PASSWORD=mypasswd' -p 10002:3306 -d mariadb --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
 
 ## mssql
-docker run --name 'MSSQL2017' -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=ciPs1618' -e 'MSSQL_PID=Developer' -e SQLSERVER_USER=username -e SQLSERVER_PASSWORD=ciPs1618 -p 10003:1433 -d microsoft/mssql-server-linux
+docker run --name 'MSSQL2017' -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=mypasswd' -e 'MSSQL_PID=Developer' -e SQLSERVER_USER=username -e SQLSERVER_PASSWORD=ciPs1618 -p 10003:1433 -d microsoft/mssql-server-linux
 
 ## threadsafety
 |threadsafety|	Meaning|
